@@ -17,7 +17,7 @@ data:
         nameIdentifiers: []
         contributorType: Researcher
         order: 2
-      - name: Yilin Qian
+      - name: Chiyin Li
         givenName: ''
         familyName: ''
         nameType: Personal
@@ -29,7 +29,7 @@ data:
         nameType: Personal
       - name: Mo Wang
         nameType: Personal
-      - name: Yilin Qian
+      - name: Chiyin Li
         nameType: Personal
     descriptions:
       - description: N/A
