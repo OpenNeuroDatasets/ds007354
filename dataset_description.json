@@ -1,9 +1,13 @@
 {
-    "Authors":["Gengchen Ye","Mo Wang"],
+    "Authors": [
+        "Gengchen Ye",
+        "Mo Wang"
+    ],
     "BIDSVersion": "1.0",
     "DatasetDOI": "",
     "Funding": [
-        "(#)"
+        "(#)",
+        "The Health Research and Innovation Capacity Strengthening Platform Program of Shaanxi Province (grant number: 2023PT-09)"
     ],
     "HowToAcknowledge": "TODO: describe how to acknowledge -- either cite a corresponding paper, or just in acknowledgement section",
     "License": "CC0",
