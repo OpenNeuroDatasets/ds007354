@@ -1,9 +1,19 @@
 {
     "Authors": [
-        "Gengchen Ye","Mo Wang","Chiyin Li","Yihao Peng","Yilin Qian","Yutao Wang","Xinyi Si","Shaoxin Xiang","Fanzhi Jiang","Lu Wang","Ming Zhang"
+        "Gengchen Ye",
+        "Mo Wang",
+        "Chiyin Li",
+        "Yihao Peng",
+        "Yilin Qian",
+        "Yutao Wang",
+        "Xinyi Si",
+        "Shaoxin Xiang",
+        "Fanzhi Jiang",
+        "Lu Wang",
+        "Ming Zhang"
     ],
     "BIDSVersion": "1.0",
-    "DatasetDOI": "",
+    "DatasetDOI": "doi:10.18112/openneuro.ds007354.v1.0.0",
     "Funding": [
         "The Health Research and Innovation Capacity Strengthening Platform Program of Shaanxi Province (grant number: 2023PT-09)"
     ],
