@@ -1,7 +1,6 @@
 {
     "Authors": [
-        "Gengchen Ye",
-        "Mo Wang"
+        "Gengchen Ye","Mo Wang","Chiyin Li","Yihao Peng","Yilin Qian","Yutao Wang","Xinyi Si","Shaoxin Xiang","Fanzhi Jiang","Lu Wang","Ming Zhang"
     ],
     "BIDSVersion": "1.0",
     "DatasetDOI": "",
@@ -10,12 +9,12 @@
     ],
     "HowToAcknowledge": "TODO: describe how to acknowledge -- either cite a corresponding paper, or just in acknowledgement section",
     "License": "CC0",
-    "Name": "The first 5.0T Ultra-high field fMRI Dataset for the visual processing of naturalistic scenes",
+    "Name": "A 5.0T Ultra-High-Field fMRI Dataset for Naturalistic Visual Scene Processing",
     "ReferencesAndLinks": [
         "TODO",
         "List of papers or websites"
     ],
     "EthicsApprovals": [
-        "approval number: "
+        "approval number: XJTU1AF2026LSYY-16"
     ]
 }
