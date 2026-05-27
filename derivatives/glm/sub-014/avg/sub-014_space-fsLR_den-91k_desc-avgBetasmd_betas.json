@@ -1,0 +1,15 @@
+{
+  "Description": "Subject-level GLMsingle betasmd beta maps averaged across all runs/repeats by condition in full fsLR 91k grayordinates.",
+  "SoftwareName": "GLMsingle",
+  "BetaKey": "betasmd",
+  "Space": "fsLR",
+  "Density": "91k",
+  "DataFormat": "CIFTI-2 dscalar",
+  "RowDescription": "Each row corresponds to one condition in the paired conditions TSV.",
+  "RowsMatchPairedTSV": true,
+  "Sources": [
+    "G:\\nsd\\beta\\extracted\\full91k\\avg_all\\sub-014_allRuns_betasmd_avg.dscalar.nii"
+  ],
+  "SourceTable": "G:\\nsd\\beta\\extracted\\full91k\\avg_all\\sub-014_allRuns_conditions.csv",
+  "PairedTable": "sub-014_space-fsLR_den-91k_desc-avgBetasmd_betas.tsv"
+}

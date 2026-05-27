@@ -1,0 +1,15 @@
+{
+  "Description": "Run-level GLMsingle betasmd beta maps in full fsLR 91k grayordinates.",
+  "SoftwareName": "GLMsingle",
+  "BetaKey": "betasmd",
+  "Space": "fsLR",
+  "Density": "91k",
+  "DataFormat": "CIFTI-2 dscalar",
+  "RowDescription": "Each row corresponds to one trial/presentation in the paired trials TSV.",
+  "RowsMatchPairedTSV": true,
+  "Sources": [
+    "G:\\nsd\\beta\\extracted\\full91k\\raw_by_run\\sub-007_ses-101_task-s3_betasmd_raw.dscalar.nii"
+  ],
+  "SourceTable": "G:\\nsd\\beta\\extracted\\full91k\\raw_by_run\\sub-007_ses-101_task-s3_trials.csv",
+  "PairedTable": "sub-007_ses-101_task-s3_space-fsLR_den-91k_desc-rawBetasmd_betas.tsv"
+}

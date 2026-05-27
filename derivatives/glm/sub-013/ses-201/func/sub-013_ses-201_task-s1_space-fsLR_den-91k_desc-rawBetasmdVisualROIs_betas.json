@@ -1,0 +1,17 @@
+{
+  "Description": "Run-level GLMsingle betasmd beta maps restricted to visual ROIs.",
+  "SoftwareName": "GLMsingle",
+  "BetaKey": "betasmd",
+  "Space": "fsLR",
+  "Density": "91k",
+  "DataFormat": "CIFTI-2 dscalar",
+  "RowDescription": "Each row corresponds to one trial/presentation in the paired trials TSV.",
+  "RowsMatchPairedTSV": true,
+  "Sources": [
+    "G:\\nsd\\beta\\extracted\\visual_rois\\raw_by_run\\sub-013_ses-201_task-s1_visualROIs_betasmd_raw.dscalar.nii"
+  ],
+  "SourceTable": "G:\\nsd\\beta\\extracted\\visual_rois\\raw_by_run\\sub-013_ses-201_task-s1_visualROIs_trials.csv",
+  "PairedTable": "sub-013_ses-201_task-s1_space-fsLR_den-91k_desc-rawBetasmdVisualROIs_betas.tsv",
+  "GrayordinateSubset": "visual ROIs",
+  "GrayordinateSubsetDescription": "Columns are a subset of fsLR 91k grayordinates defined by roimap_91k_visual_rois.mat and visual_columns.tsv."
+}
