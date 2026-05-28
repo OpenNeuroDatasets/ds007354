@@ -1,3 +1,0 @@
-﻿interval_type	n	mean_days	sd_days	median_days	min_days	max_days	q1_days	q3_days
-session1_to_session2	220	17.113636363636363	8.300343583940188	15.0	5	51	12.0	20.0
-session2_to_session3	220	16.572727272727274	15.051788280053744	9.5	2	65	7.0	20.0
