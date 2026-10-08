@@ -1,3 +1,5 @@
+2.0.2 2026-10-08
+  - Removed derivatives and all fmap directories.
 2.0.1 2026-07-06
   - doi error
 2.0.0 2026-05-28
