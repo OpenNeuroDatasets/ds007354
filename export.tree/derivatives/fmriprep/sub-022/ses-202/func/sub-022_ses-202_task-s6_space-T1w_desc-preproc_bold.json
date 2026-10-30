@@ -1,0 +1,13 @@
+{
+  "DelayTime": 0.07811999999999997,
+  "RepetitionTime": 1,
+  "SkullStripped": false,
+  "SliceTimingCorrected": true,
+  "Sources": [
+    "bids:raw:sub-022/ses-202/func/sub-022_ses-202_task-s6_bold.nii.gz",
+    "bids:raw:sub-022/ses-101/anat/sub-022_ses-101_T1w.nii.gz"
+  ],
+  "StartTime": 0.461,
+  "TaskName": "s6",
+  "SourcesDescription": "Sources identify the public raw BOLD and the one shared raw T1w acquisition used to generate this derivative. Intermediate anatomical images, reference images and transforms are not included in this final-results publication. Processing values and spatial metadata are retained from fMRIPrep."
+}
