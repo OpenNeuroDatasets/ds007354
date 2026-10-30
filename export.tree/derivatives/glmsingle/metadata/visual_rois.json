@@ -1,0 +1,51 @@
+{
+  "Atlas": "HCP-MMP1.0",
+  "SourceAtlasFile": "Q1-Q6_RelatedValidation210.CorticalAreas_dil_Final_Final_Areas_Group_Colors.32k_fs_LR.dlabel.nii",
+  "SourceAtlasSHA256": "f3315dd22c10c64234a38dde923db05fafa2c137b3874bec9e49fee85edce9a6",
+  "SourceAtlasCorticalGrayordinates": 59412,
+  "SurfaceNumberOfVertices": {
+    "L": 32492,
+    "R": 32492
+  },
+  "Aggregation": "Original labels are grouped using the supplied summary table; hemisphere labels are pooled by ROI ID. V3 includes V3A/V3B/V3CD; V2 includes v23ab; LO and VMV pool their numbered subdivisions.",
+  "NVisualGrayordinates": 6559,
+  "ROIGrayordinateCounts": {
+    "V1": 1618,
+    "V2": 1374,
+    "V3": 1281,
+    "V4": 748,
+    "V8": 113,
+    "VMV": 445,
+    "PIT": 124,
+    "FFC": 318,
+    "VVC": 250,
+    "LO": 288
+  },
+  "Mapping": "Match hemisphere and zero-based 32k surface vertex number against the actual beta CIFTI BrainModelAxis; do not assume full-vector index equality.",
+  "InputAssets": [
+    {
+      "File": "roimap_91k_visual_rois.mat",
+      "Bytes": 2978,
+      "SHA256": "9148c7940510158c8c55292e08147403312e14a4571e07b3ce4889965050681a"
+    },
+    {
+      "File": "roimap_91k_visual_rois_id_table.csv",
+      "Bytes": 85,
+      "SHA256": "34fa93c9c1ad0701f0e614871d3d6358f5a4129b80d1d1d1b18d76797ab5d5d3"
+    },
+    {
+      "File": "roimap_91k_visual_rois_summary.csv",
+      "Bytes": 1132,
+      "SHA256": "dee96e60150829a616cf46c9d1ff09ed1da4d1fa7b624ef0c8902bf83780ea01"
+    },
+    {
+      "File": "visual_roi_cortex_vertices.tsv",
+      "Bytes": 92916,
+      "SHA256": "bfcdf7df89c1a12e1892a608daf179c20f28245be68b603abf51673af05a3c2a"
+    }
+  ],
+  "IndexBase": 0,
+  "CIFTIRepresentation": "Full fsLR 91282 BrainModelAxis. VisualROIs beta variants use NaN outside ROI membership, as well as outside the subject's valid fit mask.",
+  "NOriginalGrayordinates": 91282,
+  "ActualMapping": "visual_grayordinate_columns.tsv"
+}

@@ -1,0 +1,29 @@
+{
+  "Name": "NVD GLMsingle trial and condition beta estimates",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC0",
+  "GeneratedBy": [
+    {
+      "Name": "glmsingle",
+      "Version": "1.2",
+      "CodeURL": "https://github.com/cvnlab/GLMsingle/tree/1ab54a65edd3ea41a6133d4b4ecb78a9c7296684"
+    },
+    {
+      "Name": "fMRIPrep",
+      "Version": "25.2.5",
+      "CodeURL": "https://github.com/nipreps/fmriprep"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://openneuro.org/datasets/ds007354/versions/2.0.5",
+      "DOI": "10.18112/openneuro.ds007354.v2.0.5",
+      "Version": "2.0.5"
+    }
+  ],
+  "DatasetLinks": {
+    "raw": "../..",
+    "fmriprep": "../fmriprep"
+  }
+}
