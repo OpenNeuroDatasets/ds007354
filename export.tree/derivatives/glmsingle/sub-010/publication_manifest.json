@@ -1,0 +1,20 @@
+{
+  "Schema": "nvd-glmsingle-publication-v1",
+  "Subject": "sub-010",
+  "ExportedUTC": "2026-10-15T11:56:18.446518+00:00",
+  "ModelCompletedUTC": "2026-10-15T11:50:46.124337+00:00",
+  "InputManifestHashes": {
+    "meta.json": "a1364f657e8fd2b13773528aa29579e29a32eecf4bda69409a5c3c75909251e1",
+    "run_table.csv": "86a593e2f62525fe522da560284c9f5662cbc7b29e6a45344314a978ee2b47e3",
+    "trial_table.csv": "b03c1d376c175f38a009817d95a8e7b83876aa31aa53afa972787b1a160723b2",
+    "condition_ids.npy": "ec73aae8f24f94791b104b261e616ed6c44087d06b5844ffb0a007d10a0d03c2",
+    "grayordinate_mask.npy": "3fd4c78c31ba74f22a7211adf7f60b6806a4a8392fb8aee62e26f8d33ccc0890"
+  },
+  "NTaskRuns": 33,
+  "NTrials": 5304,
+  "NConditions": 1768,
+  "VisualROIsIncluded": true,
+  "PresentationCountHistogram": {
+    "3": 1768
+  }
+}
