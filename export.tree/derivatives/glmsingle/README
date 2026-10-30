@@ -1,0 +1,27 @@
+NVD GLMsingle Type-D derivatives
+
+The model jointly fits all 33 task runs for each participant (s1-s11 across
+three physical sessions) using GLMsingle at official commit
+1ab54a65edd3ea41a6133d4b4ecb78a9c7296684. The model selects HRFs, noise PCs and
+fractional ridge regularization, with autoscaling and percent-signal-change
+betas. The original fMRIPrep StartTime is subtracted from event onsets before
+nearest-TR design binning. The leading BIDS session-label digit identifies
+physical sessions for cross-validation; rest is excluded.
+
+rawBetasmd means trial estimates before condition averaging; it remains a
+denoised/regularized Type-D result. Every run CIFTI scalar is paired with the
+same row in its TSV. avgBetasmd is an arithmetic mean grouped by explicit
+condition/image ID across the actual recorded presentations, with each count
+reported in the TSV. It does not presume exactly three repeats.
+
+VisualROIs maps keep the complete original 91282-grayordinate BrainModelAxis
+and set voxels/vertices outside the selected visual ROIs or subject fit mask
+to NaN. ROI membership is remapped from HCP-MMP1.0 atlas hemisphere+surface
+vertex IDs into the actual fMRIPrep axis. metadata/ contains ROI IDs, vertex
+correspondence, full ROI map and both zero/one-based grayordinate indices.
+
+The betas suffix, avg/ and metadata/ are documented NVD project extensions.
+Data remain derivatives, not raw BOLD; scalar beta indices are not timepoints.
+Sources and all metadata use public BIDS URIs rather than private HPC paths.
+Work files, pickle checkpoints, local paths, licenses and credentials are
+excluded. Source: OpenNeuro ds007354 snapshot 2.0.5, CC0.
