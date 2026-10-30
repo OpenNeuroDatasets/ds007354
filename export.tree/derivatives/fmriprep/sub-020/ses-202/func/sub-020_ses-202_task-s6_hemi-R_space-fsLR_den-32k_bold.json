@@ -1,0 +1,18 @@
+{
+  "DelayTime": 0.09375,
+  "Density": "32k",
+  "RepetitionTime": 1,
+  "SliceTimingCorrected": true,
+  "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_den-32k_hemi-R_midthickness.surf.gii",
+  "StartTime": 0.453,
+  "TaskName": "s6",
+  "Sources": [
+    "bids:raw:sub-020/ses-202/func/sub-020_ses-202_task-s6_bold.nii.gz",
+    "bids:raw:sub-020/ses-101/anat/sub-020_ses-101_T1w.nii.gz"
+  ],
+  "NumberOfVertices": 32492,
+  "NumberOfTimepoints": 660,
+  "AnatomicalStructurePrimary": "CortexRight",
+  "Description": "fMRIPrep 25.2.5 fsLR surface time series resampled with Connectome Workbench; includes all 32492 mesh vertices.",
+  "SourcesDescription": "Sources identify the public raw BOLD and the one shared raw T1w acquisition used to generate this derivative. Intermediate anatomical images, reference images and transforms are not included in this final-results publication. Processing values and spatial metadata are retained from fMRIPrep."
+}
