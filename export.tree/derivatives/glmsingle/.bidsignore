@@ -1,0 +1,6 @@
+avg/**
+metadata/**
+**/*_betas.*
+**/publication_manifest.json
+README
+code/**
