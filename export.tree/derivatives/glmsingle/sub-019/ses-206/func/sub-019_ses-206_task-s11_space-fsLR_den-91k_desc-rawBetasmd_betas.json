@@ -1,0 +1,86 @@
+{
+  "SpatialReference": {
+    "CIFTI_STRUCTURE_LEFT_CORTEX": "https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_den-32k_hemi-L_midthickness.surf.gii",
+    "CIFTI_STRUCTURE_RIGHT_CORTEX": "https://templateflow.s3.amazonaws.com/tpl-fsLR/tpl-fsLR_den-32k_hemi-R_midthickness.surf.gii",
+    "VolumeReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin6Asym/tpl-MNI152NLin6Asym_res-02_T1w.nii.gz"
+  },
+  "SurfaceSpace": "fsLR",
+  "Density": "91k",
+  "NGrayordinates": 91282,
+  "Units": "percent signal change",
+  "BetaType": "GLMsingle Type D betasmd",
+  "ModelDescription": "Voxelwise selected HRF, GLMdenoise noise regressors, fractional ridge regularization, and autoscaling. raw denotes unaveraged trial estimates.",
+  "NFitGrayordinates": 89189,
+  "ExcludedGrayordinates": "NaN",
+  "InputRepetitionTime": 1.0,
+  "StimulusDuration": 1.0665319999825442,
+  "PhysicalSessionDefinition": "leading digit of BIDS ses label; physical scan session 1/2/3",
+  "ModelParameters": {
+    "wantlibrary": 1,
+    "wantglmdenoise": 1,
+    "wantfracridge": 1,
+    "wantlss": 0,
+    "wantpercentbold": 1,
+    "wantautoscale": 1,
+    "n_pcs": 10,
+    "chunklen": 50000,
+    "sessionindicator": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    ],
+    "wantfileoutputs": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "wantmemoryoutputs": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "wanthdf5": 0
+  },
+  "ScalarAxisRowDescription": "Each scalar map corresponds in order to one row in the paired TSV. Indices include explicit zero- and one-based values.",
+  "Sources": [
+    "bids:fmriprep:sub-019/ses-206/func/sub-019_ses-206_task-s11_space-fsLR_den-91k_bold.dtseries.nii",
+    "bids:raw:sub-019/ses-206/func/sub-019_ses-206_task-s11_events.tsv"
+  ],
+  "NScalarMaps": 166,
+  "InputStartTime": 0.453,
+  "TrialOrdering": "Original fitted run order, then chronological modeled onset within run; subject_beta_index_0based retains its original Type-D column index."
+}
